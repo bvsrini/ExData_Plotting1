@@ -17,7 +17,7 @@ png("plot4.png", width = 600, height = 600)
 
 # draw the all the 4 plot as required setting the labels and colors. It was required to set the margins correctly else the legend on # the 3rd plot was not working correctly
 
-par(mfrow = c(2,2),mar = c(4,4,2,1),lwd = 1)
+par(mfrow = c(2,2),mar = c(4,4,2,1),lwd = 0.5)
 
 with (pcd_subset, 
 {
