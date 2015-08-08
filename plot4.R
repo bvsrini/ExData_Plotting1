@@ -13,7 +13,7 @@ power_cons_data <- read.delim(unz("household_power_consumption.zip", "household_
 pcd_subset <- filter(power_cons_data,as.Date(power_cons_data$Date,"%d/%m/%Y") == as.Date("01/02/2007","%d/%m/%Y") | as.Date(power_cons_data$Date,"%d/%m/%Y") == as.Date("02/02/2007","%d/%m/%Y") )
 
 # Since we are required to create a png file. open a png device
-png("plot4.png", width = 600, height = 600)
+png("plot4.png", width = 800, height = 800)
 
 # draw the all the 4 plot as required setting the labels and colors. It was required to set the margins correctly else the legend on # the 3rd plot was not working correctly
 
